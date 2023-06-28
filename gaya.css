@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #F7CCAC;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* menubar */
+header {
+    background-color: #F6E7D8;
+    height: 65px;
+}
+
+header h1 {
+    float: left;
+    color: #632626;
+    font-size: 40px;
+    line-height: 65px;
+    padding: 0 30px;
+}
+
+.fa-bars {
+    visibility: hidden;
+}
+
+.menu {
+    float: right;
+    z-index: 1;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.menu a {
+    padding: 20px;
+    line-height: 65px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #9C0F48;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    background-color: #F1CA89;
+}
+
+.active {
+    background-color: #F1CA89;
+}
+
+/* home */
+
+.welcome {
+    text-align: center;
+    margin-top: 140px;
+    padding: 0 50px;
+}
+
+.welcome h1 {
+    font-size: 50px;
+    color: #632626;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 24px;
+    color: #483434;
+    margin-bottom: 20px;
+}
+
+.welcome a {
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 2px solid #B85C38;
+    border-radius: 5px;
+    background-color: #FFC069;
+    box-shadow: 0 7px #603601;
+    opacity: 0.8;
+    font-size: 20px;
+    color: #B05B3B;
+}
+
+.welcome a:hover {
+    opacity: 1;
+}
+
+.welcome a:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+/* about */
+
+.about h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 50px 0 25px 0;
+    color: #8E0505;
+    text-decoration: underline;
+}
+
+.about h3 {
+    border: 3px dashed #A64B2A;
+    border-radius: 10px;
+    background-color: #FEE2C5;
+    color: #733C3C;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 50%;
+    box-shadow: 10px 10px 10px rgba(145, 0, 0, 0.5);
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.about h2 {
+    box-shadow: -10px 10px 10px rgba(145, 0, 0, 0.5);
+    text-align: center;
+    border: 5px dotted #9D5C0D;
+    border-radius: 10px;
+    background-color: #FABB51;
+    width: 40%;
+    margin: 50px auto;
+    font-size: 30px;
+    padding: 10px;
+    color: #630000;
+}
+
+/* contact */
+
+.box h1 {
+    text-align: center;
+    color: #632626;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.kontak {
+    text-align: center;
+    border: 5px solid #603601;
+    border-radius: 10px;
+    background-color: #EDCDBB;
+    width: 50%;
+    margin: 30px auto;
+    word-wrap: break-word;
+}
+
+.kontak h2 {
+    color: #9C0F48;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.kontak p {
+    font-size: 24px;
+    font-style: italic;
+    font-family: serif;
+}
+
+.kontak a {
+    text-decoration: none;
+}
+
+.kontak a:hover {
+    text-decoration: underline;
+}
+
+/* ACBot */
+
+.form {
+    margin: 50px auto;
+    border-radius: 5px;
+    border: 5px solid #BB6464;
+    background-color: #FFC286;
+    width: 40%;
+}
+
+.form h1 {
+    text-align: center;
+    border-bottom: 5px solid #D67D3E;
+    padding: 15px;
+    background-color: #E0DDAA;
+    color: #781D42;
+}
+
+.chatbox {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.chat {
+    margin: 12px 10px;
+    padding: 12px;
+    word-wrap: break-word;
+}
+
+.bot {
+    background-color: #FFF7BC;
+    border-radius: 10px 10px 10px 0;
+    margin-right: 10vh;
+}
+
+.user {
+    background-color: #ACB992;
+    border-radius: 10px 10px 0 10px;
+    text-align: right;
+    margin-left: 30vh;
+}
+
+.pesan {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFD365;
+    border-top: 3px solid #826F66;
+}
+
+button {
+    padding: 10px 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    opacity: 0.6;
+    transition: 0.25s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.yes {
+    background-color: #6EBF8B;
+}
+
+.no {
+    background-color: #BB6464;
+}
+
+.tombol {
+    text-align: center;
+}
+
+#reset {
+    background-color: #DEA057;
+}

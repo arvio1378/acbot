@@ -1,0 +1,137 @@
+@media all and (max-width: 670px) {
+
+    /* menu */
+
+    header h1{
+        float: none;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .menu {
+        position: absolute;
+        left: -160px;
+        width: 120px;
+        background-color: #FFEBC1;
+        transition: 0.5s;
+        border: 3px solid #D67D3E;
+        text-align: center;
+    }
+
+    .menu.active {
+        left: -10px;
+    }
+
+    .menu a{
+        display: block;
+        padding: 1px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .fa-bars {
+        position: absolute;
+        visibility: visible;
+        font-size: 25px;
+        float: left;
+        top: 20px;
+        left: 30px;
+        color: #733C3C;
+    }
+
+    /* home */
+    .welcome {
+        margin-top: 80px;
+    }
+
+    .welcome h1 {
+        font-size: 40px;
+    }
+
+    .welcome p {
+        font-size: 20px;
+    }
+
+    .welcome a {
+        padding: 5px 40px;
+        font-size: 16px;
+    }
+
+    /* about */
+
+    .about h1 {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .about h3 {
+        font-size: 16px;
+        padding: 5px;
+        width: 60%;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .about h2 {
+        font-size: 24px;
+        padding: 5px;
+        width: 70%;
+        margin-top: -20px;
+    }
+
+    /* contact */
+
+    .box h1 {
+        font-size: 30px;
+    }
+
+    .kontak h2 {
+        font-size: 20px;
+    }
+
+    .kontak p {
+        font-size: 18px;
+    }
+
+    /* ACBot */
+    .chatbox {
+        height: 250px;
+    }
+
+    .form {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .form h1 {
+        font-size: 26px;
+    }
+
+    .bot {
+        padding-right: 5px;
+        margin-right: 20px;
+    }
+
+    .user {
+        padding-left: 5px;
+        margin-left: 50px;
+    }
+
+    .chat p {
+        font-size: 14px;
+    }
+
+    .tombol {
+        line-height: 2.5;
+    }
+
+    .pesan {
+        padding: 10px 0;
+    }
+
+    button {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+
+}
